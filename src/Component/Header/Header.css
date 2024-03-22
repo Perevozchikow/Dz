@@ -1,0 +1,25 @@
+.header_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.2em;
+}
+
+.search_container{
+    display: flex;
+    column-gap: 2em;
+}
+.input_search{
+    width: 20em;
+    height: 1.5em;
+    border-bottom: 1px solid ;
+    display: block;
+    padding-bottom: 0.5em;
+}
+.btn_search{
+    width: 3.12em;
+    height: 1.25em;
+    font-weight: 700;
+    color: rgba(229, 38, 30, 1);
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.btn{
+    width: 7em;
+    height: 2.3em;
+    background-color: rgba(229, 38, 30, 1);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(204, 34, 27, 1);
+;
+}
