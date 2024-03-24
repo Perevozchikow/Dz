@@ -1,0 +1,7 @@
+
+
+.genres__container_general{
+    display: flex;
+    column-gap: 1.25em;
+    margin-top: 1em;
+}

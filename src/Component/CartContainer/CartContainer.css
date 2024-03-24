@@ -1,0 +1,19 @@
+
+.movie__container_cart{
+    display: flex;
+    flex-direction: column;
+    width: 17.5em;
+    height: 27em;
+}
+.movie__container_img{
+    width: 17.5em;
+    height: 23em;
+}
+.movie__container_text{
+    margin-top: 1em;
+    font-size: 1.25em;
+}
+.movie__container_cart{
+    display: flex;
+    column-gap: 1.25em;
+}

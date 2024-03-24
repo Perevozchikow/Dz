@@ -1,6 +1,6 @@
 import React from "react";
 import "./Logo.css";
-import VectorImg from "../img/logo.png";
+import VectorImg from "../../img/logo.png";
 
 
 function Logo(){
