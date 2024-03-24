@@ -1,9 +1,9 @@
 import React from "react";
 
-import Kat from "./Component/img/kat.png";
-import Batmen from "./Component/img/batmen.png";
-import Holliwood from "./Component/img/holliwood.png";
-import Strip from "./Component/img/Strip.png";
+import Kat from "../../img/kat.png";
+import Batmen from "../../img/batmen.png";
+import Hollywood from "../../img/hollywood.png";
+import Strip from "../../img/Strip.png";
 
 
  const  dataArray = [
@@ -20,7 +20,7 @@ import Strip from "./Component/img/Strip.png";
         },
         {
             id: 3,
-            nameImg: Holliwood,
+            nameImg: Hollywood,
             text: "Однажды... в Голливуде",
         },
         {
