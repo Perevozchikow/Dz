@@ -12,6 +12,7 @@ import CartContainer from "../CartContainer/CartContainer";
                      id={el.id}
                      nameImg={el.nameImg}
                      text={el.text}
+                     textHover={el.textHover}
                  />
              )
          })}

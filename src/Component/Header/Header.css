@@ -1,8 +1,10 @@
 .header_container{
+    max-width: 73.75em;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 2.2em;
+    margin: 0 auto ;
+    padding-top: 2.2em;
 }
 
 .search_container{

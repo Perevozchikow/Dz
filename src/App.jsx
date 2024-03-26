@@ -10,6 +10,7 @@ import Cart from "./Component/Cart/Cart";
 import Categories from "../src/data/Local/Categories";
 import Genres from "./Component/Genres/Genres";
 import GenresArr from "./data/Local/GenresArr";
+import Footer from "./Component/Footer/Footer";
 
 
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <div className="container">
         <Header/>
-        <main>
+        <main className="main_container">
         <Tabs/>
             <section className="new_films">
                 <div className="movie__container">
@@ -30,6 +31,7 @@ function App() {
                 </div>
             </section>
         </main>
+        <Footer/>
     </div>
   );
 }

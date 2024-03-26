@@ -1,22 +1,20 @@
 
 .container{
-    max-width: 73.75rem;
     width: 100%;
     margin: 0 auto;
 }
-
+.main_container{
+    max-width: 73.7em;
+    width: 100%;
+    margin: 0 auto;
+}
 .new_title{
     height: 1.2em;
     font-size: 1.5em;
     color:  rgba(51, 51, 51, 1);
     font-weight: 500;
 }
-
-.movie__container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1em;
-}
 .genres__container{
-    margin-top: 2em;
+    margin: 2em 0 4.5em 0;
 }
+

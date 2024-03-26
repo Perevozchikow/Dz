@@ -5,9 +5,9 @@ import VectorImg from "../../img/logo.png";
 
 function Logo(){
     return(
-        <div className="logo">
+        <a href="/" className="logo">
             <img src={VectorImg} alt="logo"/>
-        </div>
+        </a>
     )
 }
 

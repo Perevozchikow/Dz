@@ -8,10 +8,10 @@ function Header(){
     return(
         <header className="header_container">
             <Logo/>
-            <div className="search_container">
+            <form action="/" method="get" className="search_container">
                 <input type="text" id="#search" placeholder="Поиск..." className="input_search"/>
                 <button className="btn_search">Найти</button>
-            </div>
+            </form>
             <Button/>
         </header>
     )
