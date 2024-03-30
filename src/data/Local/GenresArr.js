@@ -1,5 +1,8 @@
 import React from "react";
-
+import GradientHorror from "../../Component/Gradient/GradientHorror";
+import GradientFantastic from "../../Component/Gradient/GradientFantastic";
+import GradientDramas from "../../Component/Gradient/GradientDramas";
+import GradientComedy from "../../Component/Gradient/GradientComedy";
 
 import Comedy from "../../img/comedy.png";
 import Dramas from "../../img/dramas.png";
@@ -12,25 +15,25 @@ const genresArray = [
         id: 1,
         nameImg: Comedy,
         text: "Comedy",
-        backGround: "#F2C94C",
+        backGround: GradientComedy,
     },
     {
         id: 2,
         nameImg: Dramas,
         text: "Dramas",
-        backGround: "#F2994A",
+        backGround: GradientDramas,
     },
     {
         id: 3,
         nameImg: Fantastic,
         text: "Fantastic",
-        backGround:"#56CCF2",
+        backGround: GradientFantastic,
     },
     {
         id: 4,
         nameImg: Horror,
         text: "Horror",
-        backGround: "#828282",
+        backGround: GradientHorror,
     },
 
 ]

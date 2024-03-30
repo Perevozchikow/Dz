@@ -5,6 +5,7 @@
 }
 .main_container{
     max-width: 73.7em;
+    min-height: calc(80vh - 7.5rem);
     width: 100%;
     margin: 0 auto;
 }
